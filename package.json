@@ -1,0 +1,37 @@
+{
+  "name": "lottery-monitoring",
+  "version": "1.0.0",
+  "description": "Monitoramento dos jogos acumulados da loteria caixa (Mega-Sena, Lotofácil, Quina e Lotomania).",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "mega-sena",
+    "lotofacil",
+    "lotomania",
+    "quina",
+    "loteria",
+    "caixa"
+  ],
+  "author": "Jodair Neves",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/jodairneves/lottery-monitoring/issues"
+  },
+  "homepage": "https://github.com/jodairneves/lottery-monitoring#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jodairneves/lottery-monitoring.git"
+  },
+  "dependencies": {
+    "cron": "^2.4.3",
+    "node-telegram-bot-api": "^0.63.0",
+    "puppeteer": "^21.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
